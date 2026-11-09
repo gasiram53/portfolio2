@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - My Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <h2>My <span>Portfolio</span></h2>
+
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="contact">
+
+    <h2>Contact <span>Me</span></h2>
+
+    <div class="contact-container">
+
+        <form id="contact-form">
+
+            <input type="text" name="name" placeholder="Your Name" maxlength="100" required>
+
+            <input type="email" name="email" placeholder="Your Email" maxlength="254" required>
+
+            <input type="text" name="subject" placeholder="Subject" maxlength="150">
+
+            <textarea name="message" rows="6" placeholder="Your Message" maxlength="5000" required></textarea>
+
+            <button type="submit">Send Message</button>
+            <p id="form-status" role="status" aria-live="polite"></p>
+
+        </form>
+
+        <div class="contact-info">
+
+            <h3>Get in Touch</h3>
+
+            <p>
+                <i class="fa-solid fa-envelope"></i>
+                gasirampangi53@gmail.com
+            </p>
+
+            <p>
+                <i class="fa-solid fa-phone"></i>
+                +91 9392342775
+            </p>
+
+            <p>
+                <i class="fa-solid fa-location-dot"></i>
+                Andhra Pradesh, India
+            </p>
+
+            <p>
+                <i class="fa-brands fa-github"></i>
+                github.com/gasiram53
+            </p>
+
+            <p>
+                <i class="fa-brands fa-linkedin"></i>
+                linkedin.com/in/gasiram
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<footer class="site-footer">
+    <div class="footer-inner">
+        <div class="footer-main">
+            <div class="footer-about">
+                <a href="index.html" class="footer-brand">Gasiram <span>P</span></a>
+                <p class="footer-tagline">MCA student building useful things with Python and the web.</p>
+            </div>
+            <nav class="footer-nav" aria-label="Footer navigation">
+                <span class="footer-label">Explore</span>
+                <div class="footer-links">
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="skills.html">Skills</a>
+                    <a href="projects.html">Projects</a>
+                </div>
+            </nav>
+            <div class="footer-contact">
+                <span class="footer-label">Have a project in mind?</span>
+                <a href="contact.html" class="footer-cta">Let's talk <span aria-hidden="true">→</span></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p class="footer-copy">© 2026 Gasiram Pangi. All rights reserved.</p>
+            <a href="contact.html" class="footer-contact-link">Get in touch</a>
+        </div>
+    </div>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
